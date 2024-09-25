@@ -136,5 +136,3 @@ WebRTC (Web Real-Time Communication) is a protocol that enables peer-to-peer com
 3. **Both Peers**:
    - Exchange **ICE candidates** to determine the best route for communication.
    - Exchange media streams (audio, video) via **tracks**.
-
-Let me know if you'd like code examples or further clarification on any of these points!
