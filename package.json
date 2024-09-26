@@ -1,5 +1,11 @@
 {
   "dependencies": {
-    "socket.io": "^4.8.0"
+    "serve": "^14.2.3",
+    "socket.io": "^4.8.0",
+    "webrtc-adapter": "^9.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^9.11.1",
+    "prettier": "^3.3.3"
   }
 }

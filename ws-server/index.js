@@ -20,3 +20,9 @@ io.on("connection", (socket) => {
 server.listen(3000, () => {
   console.log("listening on *:3000");
 });
+
+
+/* "connection" is a predefined event in Socket.IO that the server listens for.
+When a client successfully connects to the server, this event is triggered.
+The callback function you pass into the io.on("connection") event will be executed whenever a client connects, 
+and a unique socket object is created for that specific connection. */
